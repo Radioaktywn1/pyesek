@@ -1,0 +1,147 @@
+/**
+ * @name Dark Glass
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required.
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @authorId 174868361040232448
+ * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/FrostedGlass
+ * @website https://gibbu.me/
+*/
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+:root {
+  --TB-header-padding: 170px;
+}
+.platform-win .typeWindows-2-g3UY {
+  height: var(--TB-bar-height, 15px);
+  margin-top: 0;
+  top: 1px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.platform-win .winButtonClose-3Q8ZH5 {
+  border-top-right-radius: var(--TB-tr-roundness);
+}
+.platform-win .winButton-3UMjdg {
+  position: relative;
+  top: calc(var(--TB-position-top, 0px) - 1px);
+  right: var(--TB-position-right, 0px);
+  height: var(--TB-height, 48px);
+  width: var(--TB-width, 40px);
+}
+.platform-win .winButton-3UMjdg:not(.winButtonClose-3Q8ZH5):hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.platform-win .container-ZMc96U {
+  padding-right: var(--TB-header-padding);
+}
+.platform-win .wordmarkWindows-2dq6rw {
+  display: 
+}
+.platform-win #app-mount.bd-detached-editor .winButton-3UMjdg {
+  right: 30%;
+}
+.platform-win .closeButton-30b1gR {
+ right: unset;
+  left: 0;
+}
+.platform-win #app-mount .typeWindows-2-g3UY::before {
+  content: none !important;
+}
+
+.theme-dark,
+.theme-light {
+	/* Discord vars */
+  --background-primary: rgba(0, 0, 0, 0.2);
+  --background-secondary: rgba(0, 0, 0, 0.2);
+  --background-secondary-alt: rgba(0, 0, 0, 0.2);
+  --background-tertiary: rgba(0, 0, 0, 0.25);
+	--channeltextarea-background: transparent;
+
+	--background-mobile-primary: var(--background-primary);
+	--background-mobile-secondary: var(--background-secondary);
+
+  --background-floating: var(--background-solid);
+  --background-accent: var(--background-solid);
+	--background-message-hover: rgba(var(--black), 0.4);
+	--activity-card-background: rgba(var(--white), 0.05);
+	--deprecated-store-bg: transparent;
+	--deprecated-card-bg: rgba(var(--white), 0.05);
+
+}
+
+/* Content */
+.mention {
+	transition: 150ms ease;
+	color: rgba(var(--accent), 1) !important;
+	background-color: rgba(var(--accent), 0.3);
+	padding: 3px 5px;
+	border-radius: 5px;
+}
+
+.mention:hover {
+	background-color: rgba(var(--accent), 0.3) !important;
+}
+
+#app-mount .container-1D34oG {
+	background: var(--background-primary);
+}
+
+div[class*="barBase-"] {
+	padding-bottom: 0;
+	background-color: rgba(var(--accent-alt), 0.9);
+}
+
+/* Scrollbars */
+ ::-webkit-scrollbar-thumb {
+	border-radius: 8px !important;
+	border: none !important;
+	border: 3px solid transparent !important;
+	background-color: rgba(var(--accent-alt), 1) !important;}
+::-webkit-scrollbar-track {
+	visibility: visible !important;
+	border-radius: 8px !important;
+	border: 3px solid transparent !important;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	background-clip: padding-box !important;
+}
+
+
+
+
+@import url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/base.css");
+
+/* User Background */
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css');
+@import url('https://discord-custom-covers.github.io/usrbg/snippets/modals.css');
+
+/* BlackBox tags */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+
+:root {
+
+    --background-image: transparent;
+    --home-image: url('https://i.imgur.com/233d55Y.gif');
+    --background-solid: rgba(0,0,0,0.30);
+    --accent: 37, 172, 232;
+    --accent-alt: 29, 101, 134;
+
+  /* Other variables */
+  --window-padding: 0px; /* Spacing around the Discord window | DEFAULT: 20px */
+  --window-roundness: 10px; /* Roundness of Discord | DEFAULT: 10px */
+  --link-colour: #00b0f4; /* DEFAULT: #00b0f4 */
+  --show-gift-gif-buttons: none; /* Show buttons: block | Hide buttons: none | DEFAULT: none */
+
+  /*
+    Visit https://fonts.google.com and select one to your liking.
+    Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+  */
+  --font: 'Whitney';
+
+  /* Do not touch */
+  --update-notice-1: none;
+}
