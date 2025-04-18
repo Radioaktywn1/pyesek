@@ -2910,7 +2910,7 @@ code {
 :root {
   /* ACCENT COLORS */
   --main-color: #8E949D;
-  --hover-color: #00f7ff;
+  --hover-color: #780794;
   --success-color: #43b581;
   --danger-color: #ED4245;
   /* STATUS COLORS */
@@ -3054,24 +3054,3 @@ code {
 .colorPrimary__201d5 {
     background-color: transparent;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
