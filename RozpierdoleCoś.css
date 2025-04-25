@@ -1,6 +1,6 @@
 :root {
-    --guildbar-avatar-size: 38px;
-    --blob-scale: 38;
+    --guildbar-avatar-size: 2px;
+    --blob-scale: 2;
 
     --guildbar-folder-size: var(--guildbar-avatar-size);
     --folder-blob-scale: var(--blob-scale);
@@ -275,8 +275,8 @@ nav[class*="guilds_"] {
 :root {
     /* Only include this part if you wish to change these variables */
     /* You can change the size but only to be less than 48px, you must change the blob scale too */
-    --guildbar-avatar-size: 38px;
-    --blob-scale: 38;
+    --guildbar-avatar-size: 2px;
+    --blob-scale: 2;
 
     --guildbar-folder-size: var(--guildbar-avatar-size);
     --folder-blob-scale: var(--blob-scale);
