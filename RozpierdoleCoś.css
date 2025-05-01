@@ -2,7 +2,7 @@
     --guildbar-avatar-size: 48px;
     --blob-scale: 48;
 
-    --guildbar-folder-size: var(--guildbar-avatar-size);
+    --guildbar-folder-size: 48px;
     --folder-blob-scale: var(--blob-scale);
 
     --custom-guild-list-padding: 12px;
@@ -3286,8 +3286,8 @@ code {
 	}
 	.wrapper_cc5dd2 > .svg_cc5dd2 foreignObject {
 		mask: none;
-		overflow: visible;
-		x: -4;
+		overflow: none;
+		x: -10;
 		y: -4;
 	}
 	.wrapper_cc5dd2 > .svg_cc5dd2 foreignObject[width="48"] {
@@ -3386,4 +3386,3 @@ code {
 .colorPrimary__201d5 {
     background-color: transparent;
 }
-
