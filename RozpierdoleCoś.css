@@ -1,3 +1,6 @@
+[class*="guilds_"] {
+    margin-top: var(--space-8);
+}
 :root {
     --guildbar-avatar-size: 48px;
     --blob-scale: 48;
