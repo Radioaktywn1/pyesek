@@ -124,7 +124,7 @@ nav[class*="guilds_"] {
     }
 
     [class*="listItem__"] {
-        margin-bottom: 8px;
+        margin-bottom: 16px;
     }
 
     [class*="stack_"] {
